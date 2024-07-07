@@ -31,7 +31,7 @@ def get_data():
 
 @app.route('/data', methods=['GET'])
 def aggregated_data():
-    data = get_aggregated_data()
+    data = get_data()
     return jsonify(data)
 
 if __name__ == '__main__':
